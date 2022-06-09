@@ -53,6 +53,4 @@ Primero deberemos hacer un `docker login` e inciar sesión en docker para poder 
 
 ![image](https://user-images.githubusercontent.com/101186662/172944817-ec116d0c-e7d7-4673-94ff-dbe110363327.png)
 
-Este es el enlace donde podemos hacer el pull[https://hub.docker.com/r/iglesiascarlos/practicacompose]
-
-El primer paso que tenemos que hacer es exportar el proyecto en un fichero.war y lo guardaremos en una nueva carpeta. Para ello, desde Eclipse hacemos click derecho sobre el proyecto y lo exportamos como un archivo "WAR".
+Este es el enlace donde podemos hacer el pull https://hub.docker.com/r/iglesiascarlos/practicacompose
