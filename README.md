@@ -40,3 +40,34 @@ En la carpeta "mysql-dump" crearemos el archivo "USUER.sql" con el siguiente con
 En la carpeta "target" tendremos el archivo "LoginWebApp.war" y una carpeta "LoginWebApp" en esta carpeta tendremos todo el código. También tenemos el archivo "LoginWebApp.war.bck" que es una copia de seguridad del war.
 
 ![image](https://user-images.githubusercontent.com/101186662/173053095-dfa2ed4a-f62d-41b1-840f-f1c22f33b551.png)
+
+___
+**3 - Crear una imagen del "Dockerfile"**
+___
+Como estamos en VisualStudio es tan fácil crear una imagen como dar click derecho encima del archivo de "Dockerfile" y "Build Image".
+
+![image](https://user-images.githubusercontent.com/101186662/173054140-6a7452bb-e1b0-436a-ad41-b0b42bcc6ea7.png)
+
+Nos saldrá esto de aquí para poder elegir el nombre que queramos. Una vez tengamos el nombre damos "Enter". 
+
+![image](https://user-images.githubusercontent.com/101186662/173054256-008e2b85-69de-4c22-bfc3-97fc58a79d25.png)
+
+![image](https://user-images.githubusercontent.com/101186662/173054392-03a00cfb-370b-46ad-bb44-3f8176600c17.png)
+
+___
+**4 - Hacer un "Compose Up"**
+___
+Para poder subir los tres contenedores a la vez necesitamos hacer un "Compose Up", como estamos en visual es tan fácil como ir al archivo "docker-compose.yml" hacer click derecho en cualquier parte del archivo y "Compose Up"
+
+![image](https://user-images.githubusercontent.com/101186662/173055021-d219fd23-b38b-4eaa-98b6-30b4dce5964a.png)
+
+![image](https://user-images.githubusercontent.com/101186662/173055217-6c92c8aa-1a6f-4a59-b395-e8010ae4a380.png)
+
+En Docker Desktop se ve algo así.
+
+![image](https://user-images.githubusercontent.com/101186662/173055341-0d4df64b-12d2-467b-8d3a-2ff62ea2cf0d.png)
+
+Como podemos ver con un solo comando hemos iniciado tres contenedores a la misma vez.
+
+___
+**5 - Verificar si está desplegado**
