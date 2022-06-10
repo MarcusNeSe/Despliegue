@@ -27,3 +27,16 @@ En el archivo .yml lo que escribimos son las versiones, indicamos que puerto que
 
 ![image](https://user-images.githubusercontent.com/101186662/173051208-43f44d55-2b04-4a0b-af94-67455748cb98.png)
 ![image](https://user-images.githubusercontent.com/101186662/173051240-ae8bb703-f382-4b71-91b4-945286cf71af.png)
+
+Ahora crearemos la carpeta "mysql-dump" y "target" estás dos carpeta cuando usamos el comando `docker-compose up -d` para levantar los tres contenedores a la vez se crean solas pero sin nada, menos la de "target" que lo que hace es crear otra carpeta dentro llamada "LoginWebApp.war" pero no necesitamos esa carpeta dentro sino el archivo "LoginWebApp.war".
+
+En la carpeta "mysql-dump" crearemos el archivo "USUER.sql" con el siguiente contenido.
+
+![image](https://user-images.githubusercontent.com/101186662/173052521-406d39eb-0657-4e3e-8aa2-5ea229140f99.png)
+
+![image](https://user-images.githubusercontent.com/101186662/173052563-3ba676e5-be7f-4ed7-b72b-9464de0fcbad.png)
+![image](https://user-images.githubusercontent.com/101186662/173052598-dbe31841-8d56-48c8-8c46-8d4a743b0df9.png)
+
+En la carpeta "target" tendremos el archivo "LoginWebApp.war" y una carpeta "LoginWebApp" en esta carpeta tendremos todo el código. También tenemos el archivo "LoginWebApp.war.bck" que es una copia de seguridad del war.
+
+![image](https://user-images.githubusercontent.com/101186662/173053095-dfa2ed4a-f62d-41b1-840f-f1c22f33b551.png)
