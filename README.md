@@ -23,3 +23,5 @@ Lo que hace el COPY es copiar el archivo llamado "LoginWebApp" que está situado
 
 Ahora crearmos el archivo "docker-compose.yml", en el cual pondremos toda la información de cada contenedor como el de "mySql", "phpMyAdmin" y "tomcat". Lo hemos creado de la misma forma que el "Dockerfile", pero cambiando el nombre por "docker-compose.yml". En este archivo hemos puesto lo siguiente.
 
+![image](https://user-images.githubusercontent.com/101186662/173051208-43f44d55-2b04-4a0b-af94-67455748cb98.png)
+![image](https://user-images.githubusercontent.com/101186662/173051240-ae8bb703-f382-4b71-91b4-945286cf71af.png)
