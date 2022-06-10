@@ -71,3 +71,33 @@ Como podemos ver con un solo comando hemos iniciado tres contenedores a la misma
 
 ___
 **5 - Verificar si está desplegado**
+___
+Primero iremos al navegador y pondremos "localhost:8081" si recordamos en el puerto "8081" tenemos el phpMyAdmin. Nos saldrá para inciar sesión se inicia con "testuser" como usuario y como contraseña "root".
+
+![image](https://user-images.githubusercontent.com/101186662/173056043-59e468f7-7ed7-4d11-9377-8fe63d9eafa7.png)
+
+Una vez dentro iremos a "testdb1", luego "USER", "*Columnas*" y "Nueva". Aquí crearemos una nueva columna llamada "regdit" con un valor/lognitud "20".
+
+![image](https://user-images.githubusercontent.com/101186662/173056369-acd52f09-77b8-4ca8-9d1e-4f8d1bf03670.png)
+
+Ahora comprobamos si podemos registrarnos y luego logearnos. Para eso vamos a "localhost:8082/LoginWebApp".
+
+![image](https://user-images.githubusercontent.com/101186662/173056982-2a752d08-3bf0-43e2-904a-7641531ea2a9.png)
+
+Como no tenemos cuenta le damos a "Register Here" y crearemos la cuenta.
+
+![image](https://user-images.githubusercontent.com/101186662/173057072-a99356b4-f576-4d03-977a-a75eeabd8cf9.png)
+
+Si se ha creado correctamente deberemos logearnos y darnos este mensaje.
+
+![image](https://user-images.githubusercontent.com/101186662/173057216-3511274c-6175-4f27-b4d9-ffec5ee70252.png)
+![image](https://user-images.githubusercontent.com/101186662/173057319-adceeb73-9855-45cf-b035-7138772115c9.png)
+
+Para comprobar definitivamente si la cuenta se ha creado bien y se ha guardado en la base de datos vamos a ir al "localhost:8081" y veremos i está la cuenta creada. Como podemos ver está creada.
+
+![image](https://user-images.githubusercontent.com/101186662/173057448-5bbe9a54-2103-4c68-90e0-c409e1f1952a.png)
+
+___
+**6 - Push para el perfil de DockerHub**
+___
+Para hacer un push desde VisualStudio lo que haremos será ir a la extensión "Docker", "Images"
