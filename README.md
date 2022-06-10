@@ -115,3 +115,7 @@ Ahora nos pedíra que seleccionemos que usuario queremos usar, lo seleccionamos 
 Y ya se empezará a subir a tu "DockerHub".
 
 ![image](https://user-images.githubusercontent.com/101186662/173058607-628ad5be-fdb7-459e-a60e-763b073a9347.png)
+
+Aquí está en enlace para poder hacer un "pull" de está imagen.
+
+https://hub.docker.com/r/marcsnese/practicacompose
