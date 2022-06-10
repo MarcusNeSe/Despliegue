@@ -7,7 +7,7 @@ En nuestro caso como no hemos usado nuestro proyecto por falta de código y func
 ___
 **2 - Creación de la carpeta y archivos "DockerFile", "docker-compose.yml..."**
 ___
-Primero hemos creado una carpeta llama "PracticaCompose" en la cual hemos metido los siguientes archivos. (Debe acabar algo parecido a esto)
+Primero hemos creado una carpeta llama "PracticaCompose" en la cual hemos metido los siguientes archivos. (Debe acabar algo parecido a esto menos con la carpeta "src")
 
 ![image](https://user-images.githubusercontent.com/101186662/173049920-b2e9411c-e39a-49c6-8d41-d9ccd574e7dd.png)
 
