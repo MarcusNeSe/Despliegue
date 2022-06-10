@@ -1,4 +1,6 @@
 # Despliegue Practica de Máximo con Docker-Compose
+
+Practica hecha por Marc Negre, Adrià Juan, Carlos Iglesias
 ___
 **1 - Extraer .war del proyecto**
 ___
@@ -97,6 +99,7 @@ Para comprobar definitivamente si la cuenta se ha creado bien y se ha guardado e
 
 ![image](https://user-images.githubusercontent.com/101186662/173057448-5bbe9a54-2103-4c68-90e0-c409e1f1952a.png)
 
+En caso de querer parar haremos el mismo proceso que para hacer el "Compose Up", pero le daremos a "Compose Down" y se paran todos los contenedores.
 ___
 **6 - Push para el perfil de DockerHub**
 ___
@@ -119,3 +122,5 @@ Y ya se empezará a subir a tu "DockerHub".
 Aquí está en enlace para poder hacer un "pull" de está imagen.
 
 https://hub.docker.com/r/marcsnese/practicacompose
+
+Todo lo que se necesia para hacer está practica está subido, todos los archivos están subidos.
