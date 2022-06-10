@@ -100,4 +100,18 @@ Para comprobar definitivamente si la cuenta se ha creado bien y se ha guardado e
 ___
 **6 - Push para el perfil de DockerHub**
 ___
-Para hacer un push desde VisualStudio lo que haremos será ir a la extensión "Docker", "Images"
+Para hacer un push desde VisualStudio lo que haremos será ir a la extensión "Docker" e inicias sesión con tu cuenta de docker hub en la parte de "Registries", pones tu usernameID y luego tu constraseña y ya.
+
+![image](https://user-images.githubusercontent.com/101186662/173058070-601a9d31-110c-481b-915a-c4343acfa3c9.png)
+
+Luego en el apartado "Images", abres la imagen a la que quieras de las click derecho y "Push".
+
+![image](https://user-images.githubusercontent.com/101186662/173058193-8944326f-94bc-490c-a995-7327ff5eca94.png)
+
+Ahora nos pedíra que seleccionemos que usuario queremos usar, lo seleccionamos y enter.
+
+![image](https://user-images.githubusercontent.com/101186662/173058426-516b6ec0-5c7c-47ae-a77d-81e6823be511.png)
+
+Y ya se empezará a subir a tu "DockerHub".
+
+![image](https://user-images.githubusercontent.com/101186662/173058607-628ad5be-fdb7-459e-a60e-763b073a9347.png)
